@@ -44,6 +44,8 @@ ballo-gadget/
 
 ## 📚 Learning & Tracking
 
+- [**Initial EDC Inventory**](docs/INITIAL_EDC_LIST.md): The first batch of gear to be added.
+- [**Product Concept**](docs/PRODUCT_CONCEPT.md): The vision and product goals (Bilingual).
 - [**Project Status**](docs/PROJECT_STATUS.md): Current technical milestones.
 - [**TDD & Java Learning Path**](docs/LEARNING_PATH.md): Dedicated checklist for interview prep.
 

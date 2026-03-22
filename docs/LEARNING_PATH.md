@@ -34,6 +34,7 @@ This document tracks your progress in mastering TDD and Spring Boot patterns for
 - [ ] Implement **Audit Logging** using Spring AOP or Interceptors.
 
 ### 🤖 Phase 4: Spring AI & Gemini Integration
+
 - [ ] Setup **Spring AI** with Google Gemini Pro API Key.
 - [ ] Implement **TDD for AI service**: Mocking the AI model response.
 - [ ] Create `GadgetSummarizer` service using prompt engineering.
