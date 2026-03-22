@@ -12,8 +12,10 @@
 
 - [x] **AWS CLI Configured**: Profile `ballo-gadget` is ready.
 - [x] **IAM User Created**: Initialized for Terraform/IaC access.
-- [x] **Clean Setup (Thailand)**: All resources live in `ap-southeast-7`.
-- [ ] **Tech Stack Pivot**: Java 25, Angular, and Spring AI (Gemini).
+- [x] **Clean Setup (Thailand)**: PostgreSQL 17.2 & S3 Gear Storage active in `ap-southeast-7`.
+  - **DB Endpoint**: `terraform-20260322152338308800000001.cj2qww84sb0l.ap-southeast-7.rds.amazonaws.com:5432`
+  - **S3 Bucket**: `ballo-gadget-gear-storage-f3b51f52`
+- [x] **Tech Stack Standardized**: Java 25, Angular, Spring AI, PostgreSQL, S3.
 - [x] **Project Structure**: Initialized `docs/`, `infrastructure/`, `services/`, `web/`.
 - [x] **Standards Document**: Created `.agents/workflows/ballo-gadget-standards.md`.
 
