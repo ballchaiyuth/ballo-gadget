@@ -30,7 +30,13 @@ This document tracks your progress in mastering TDD and Spring Boot patterns for
 
 - [ ] Implement **DTO (Data Transfer Object)** pattern to separate API layer from Entity.
 - [ ] Use **MapStruct** or manual mapping with comprehensive tests.
-- [ ] Implement **Audit Logging** using Spring AOP or Interceptors (Mocking cross-cutting concerns).
+- [ ] Implement **Audit Logging** using Spring AOP or Interceptors.
+
+### 🍱 Phase 4: Angular Frontend Integration
+- [ ] Initialize Angular (Latest) in `web/`.
+- [ ] Setup **Service Layer** to communicate with Java BFF.
+- [ ] Implement Reactive Forms and Type-safe API calls.
+- [ ] Practice Component Testing (Jasmine/Karma or Jest).
 
 ### 💼 Interview Specifics
 

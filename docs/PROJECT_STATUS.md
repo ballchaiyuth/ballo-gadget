@@ -12,12 +12,8 @@
 
 - [x] **AWS CLI Configured**: Profile `ballo-gadget` is ready.
 - [x] **IAM User Created**: Initialized for Terraform/IaC access.
-- [x] **Local Environment Verified**:
-  - Node `v25.8.1`
-  - Java `25.0.2`
-  - Python `3.14.3`
-  - Go `1.26.1`
-  - OpenTofu `v1.11.5`
+- [x] **Clean Setup (Thailand)**: All resources live in `ap-southeast-7`.
+- [ ] **Tech Stack Pivot**: Refocused on Java 25 & Angular.
 - [x] **Project Structure**: Initialized `docs/`, `infrastructure/`, `services/`, `web/`.
 - [x] **Standards Document**: Created `.agents/workflows/ballo-gadget-standards.md`.
 
@@ -25,10 +21,10 @@
 
 ## 🏗 In Progress / Next Steps
 
-- [x] **AWS Quests (All 5)**: Complete (Bedrock final verification in progress).
-- [x] **Project Foundation (Bangkok Clean)**: Verified and healthy.
-- [ ] **Java BFF Foundation**: Initialize Spring Boot 3.5 project in `services/java-bff/`.
-- [ ] **Repo Initialization**: `git init` and first commit.
+- [x] **AWS Quests (All 5)**: Complete ($100 Credits Secured).
+- [x] **Project Foundation (Bangkok Clean)**: 100% Operational in ap-southeast-7.
+- [x] **Git Repository**: Initialized with foundation commit.
+- [/] **Java BFF Foundation**: Spring Boot 3.5 initialized and baseline established.
 
 ---
 

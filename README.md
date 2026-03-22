@@ -8,11 +8,9 @@ As a gadget lover and software engineer, this project bridges my passion for hig
 
 ## 🛠 Tech Stack
 
-- **BFF (Backend for Frontend):** Java Spring Boot (Focus: TDD & Clean Architecture)
-- **Gear Description Service:** Python (Focus: AI Integration with Gemini Pro)
-- **Loadout Manager:** Go (Focus: High-performance SQL operations)
-- **Infrastructure:** AWS (EC2, RDS, S3) managed via Terraform
-- **Frontend:** Vue.js (The expert choice for a polished UI)
+- **Backend (BFF):** Java 25 Spring Boot (Focus: TDD, Clean Architecture, Interview Prep)
+- **Frontend:** Angular (Focus: Enterprise-grade UI, TypeScript)
+- **Infrastructure:** AWS (EC2, RDS) managed via OpenTofu
 
 ## 🛠 Development Environment Check
 
@@ -40,9 +38,9 @@ ballo-gadget/
 ## 🎯 Current Status
 
 - [x] **Phase 1: Foundation & AWS Credit Quests** ($100 Credits Secured! 🎉)
-- [/] **Phase 2: Java BFF Development & TDD Practice** (Initial Planning)
-- [ ] **Phase 3: AI Service & Loadout Management**
-- [ ] **Phase 4: Vue.js Dashboard Integration**
+- [/] **Phase 2: Java BFF Development & TDD Practice** (Focus: Backend Excellence)
+- [ ] **Phase 3: Angular Frontend Integration** (Focus: Modern Web)
+- [ ] **Phase 4: Full-Stack Deployment & Showcase**
 
 ## 📚 Learning & Tracking
 
