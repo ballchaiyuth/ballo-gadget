@@ -6,10 +6,10 @@ description: BalloGadget Development Standards
 
 ## 1. Tech Stack & Environment
 
-- **BFF:** Java 25 (LTS) + Spring Boot 3.5.x.
+- **BFF:** Java 25 (LTS) + Spring Boot 3.5.x + Spring AI (Gemini Pro).
 - **Frontend:** Angular (Latest) + TypeScript.
 - **IaC:** OpenTofu v1.11.5 (Modern Terraform).
-- **CLI Tools:** AWS CLI v2.34+, Spring CLI v3.5+.
+- **CLI Tools:** AWS CLI v2.34+, Spring CLI v3.5+, Google AI SDK.
 - **Environment:** Node v25.8.1, Java 25.0.2.
 
 ## 2. Spring Boot Learning & Development Path

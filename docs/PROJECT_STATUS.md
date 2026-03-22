@@ -13,7 +13,7 @@
 - [x] **AWS CLI Configured**: Profile `ballo-gadget` is ready.
 - [x] **IAM User Created**: Initialized for Terraform/IaC access.
 - [x] **Clean Setup (Thailand)**: All resources live in `ap-southeast-7`.
-- [ ] **Tech Stack Pivot**: Refocused on Java 25 & Angular.
+- [ ] **Tech Stack Pivot**: Java 25, Angular, and Spring AI (Gemini).
 - [x] **Project Structure**: Initialized `docs/`, `infrastructure/`, `services/`, `web/`.
 - [x] **Standards Document**: Created `.agents/workflows/ballo-gadget-standards.md`.
 

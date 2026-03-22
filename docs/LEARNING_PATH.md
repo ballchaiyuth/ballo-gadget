@@ -8,6 +8,7 @@ This document tracks your progress in mastering TDD and Spring Boot patterns for
 - Deep dive into **JUnit 5**, **Mockito**, and **AssertJ**.
 - Implement common **Design Patterns** used in enterprise Java.
 - Practice **Clean Code** principles and SOLID.
+- Master **Spring AI** for Gemini Pro integration.
 
 ## 📝 Learning Checklist
 
@@ -32,7 +33,14 @@ This document tracks your progress in mastering TDD and Spring Boot patterns for
 - [ ] Use **MapStruct** or manual mapping with comprehensive tests.
 - [ ] Implement **Audit Logging** using Spring AOP or Interceptors.
 
-### 🍱 Phase 4: Angular Frontend Integration
+### 🤖 Phase 4: Spring AI & Gemini Integration
+- [ ] Setup **Spring AI** with Google Gemini Pro API Key.
+- [ ] Implement **TDD for AI service**: Mocking the AI model response.
+- [ ] Create `GadgetSummarizer` service using prompt engineering.
+- [ ] Handle AI rate limits and exceptions gracefully.
+
+### 🍱 Phase 5: Angular Frontend Integration
+
 - [ ] Initialize Angular (Latest) in `web/`.
 - [ ] Setup **Service Layer** to communicate with Java BFF.
 - [ ] Implement Reactive Forms and Type-safe API calls.

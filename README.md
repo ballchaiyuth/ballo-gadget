@@ -8,7 +8,7 @@ As a gadget lover and software engineer, this project bridges my passion for hig
 
 ## 🛠 Tech Stack
 
-- **Backend (BFF):** Java 25 Spring Boot (Focus: TDD, Clean Architecture, Interview Prep)
+- **Backend (BFF):** Java 25 Spring Boot + **Spring AI (Gemini)**
 - **Frontend:** Angular (Focus: Enterprise-grade UI, TypeScript)
 - **Infrastructure:** AWS (EC2, RDS) managed via OpenTofu
 
@@ -38,7 +38,7 @@ ballo-gadget/
 ## 🎯 Current Status
 
 - [x] **Phase 1: Foundation & AWS Credit Quests** ($100 Credits Secured! 🎉)
-- [/] **Phase 2: Java BFF Development & TDD Practice** (Focus: Backend Excellence)
+- [/] **Phase 2: Java BFF & Spring AI Integration** (Focus: TDD & AI Excellence)
 - [ ] **Phase 3: Angular Frontend Integration** (Focus: Modern Web)
 - [ ] **Phase 4: Full-Stack Deployment & Showcase**
 
