@@ -1,5 +1,4 @@
-# 🎒 BalloGadget: Product Concept & Final Goal
-# (แนวคิดผลิตภัณฑ์และเป้าหมายสูงสุด)
+# 🎒 BalloGadget: Product Concept & Final Goal (แนวคิดผลิตภัณฑ์และเป้าหมายสูงสุด)
 
 **BalloGadget** is not just a CRUD app; it's a curated EDC (Everyday Carry) ecosystem and decision-support tool for gadget lovers.
 (BalloGadget ไม่ใช่แค่แอปจัดการข้อมูลทั่วไป แต่เป็นระบบนิเวศสำหรับชาว EDC เพื่อช่วยในการตัดสินใจและจัดการอุปกรณ์ที่รัก)
