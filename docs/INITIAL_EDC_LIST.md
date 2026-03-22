@@ -18,7 +18,9 @@ This is the collection of Khun Ball's favorite gadgets and gear that will serve 
 | **Apparel**   | เสื้อ กางเกงขาสั้น Uniqlo | Uniqlo Apparel          | Low-profile, high-utility. |
 
 ---
+
 ## 🔐 Infrastructure Details (Important!)
+
 - **DB Engine**: PostgreSQL 17.2 (Bangkok)
 - **DB Endpoint**: `terraform-20260322152338308800000001.cj2qww84sb0l.ap-southeast-7.rds.amazonaws.com`
 - **DB Name**: `ballogadget`
