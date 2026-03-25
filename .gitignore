@@ -49,4 +49,4 @@ terraform.rc
 target/
 .mvn/
 mvnw
-mvnw.cmd
+mvnw.cmdinfrastructure/keys/

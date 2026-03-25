@@ -40,3 +40,7 @@ description: BalloGadget Development Standards
 - **Profile:** Always use `ballo-gadget`.
 - **Tool:** Use `tofu` (aliased as `tf`) for all infrastructure tasks.
 - **IaC First:** No manual changes via AWS Console to maintain a clean audit trail.
+
+## 6. Communication & Chat Standards
+
+- **Bilingual Summaries:** Always provide a concise summary in **Thai** at the end of each major chat response or task update to facilitate quick scanning by the user.

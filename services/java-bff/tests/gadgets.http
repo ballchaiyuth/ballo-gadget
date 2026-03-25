@@ -1,0 +1,41 @@
+### Create Alpaka Metro Crossbody
+POST http://localhost:8080/api/v1/gadgets
+Content-Type: application/json
+
+{
+  "name": "Alpaka Metro Crossbody",
+  "brand": "Alpaka",
+  "model": "Metro Crossbody",
+  "category": "Bags",
+  "status": "LOVED",
+  "price": 2100.00,
+  "purchaseDate": "2026-03-25",
+  "description": "Sling bag ไซส์ใหญ่หน่อย ใช้เวลาพกของเยอะ",
+  "metadata": {
+    "material": "axoflux",
+    "color": "green"
+  }
+}
+
+### Create Alpaka Go Sling Mini V1
+POST http://localhost:8080/api/v1/gadgets
+Content-Type: application/json
+
+{
+  "name": "Alpaka Go Sling Mini v1",
+  "brand": "Alpaka",
+  "model": "Go Sling Mini v1",
+  "category": "Bags",
+  "status": "LOVED",
+  "price": 1500.00,
+  "purchaseDate": "2026-03-25",
+  "description": "Sling bag ไซส์เล็ก อันนี้ใช้ประจำ",
+  "metadata": {
+    "material": "xpac",
+    "color": "black"
+  }
+}
+
+### Get all Gadgets
+GET http://localhost:8080/api/v1/gadgets
+Accept: application/json
