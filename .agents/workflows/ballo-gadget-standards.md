@@ -44,3 +44,9 @@ description: BalloGadget Development Standards
 ## 6. Communication & Chat Standards
 
 - **Bilingual Summaries:** Always provide a concise summary in **Thai** at the end of each major chat response or task update to facilitate quick scanning by the user.
+
+## 7. Version Control (Git)
+
+- **Branching:** Use `develop` for active development and `main` for production-ready code.
+- **Commits:** Provide clear, descriptive commit messages (Atomic Commits).
+- **No Auto-Push:** The AI Assistant should write commit messages and perform `git commit`, but **MUST NOT** run `git push` automatically. The USER will review and push manually to ensure full control over the remote repository.
