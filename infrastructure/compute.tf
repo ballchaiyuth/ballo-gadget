@@ -1,7 +1,7 @@
 resource "aws_instance" "bff_server" {
   ami           = "ami-003053ab6a0d2037d" # Amazon Linux 2023 in ap-southeast-7
   instance_type = "t3.micro"
-  key_name      = "pair-test-key"
+  key_name      = "ballo-gadget-bff-key"
 
   vpc_security_group_ids = [aws_security_group.bff_sg.id]
 

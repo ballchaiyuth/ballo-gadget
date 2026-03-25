@@ -2,7 +2,7 @@
 
 # Configuration
 EC2_IP="43.210.67.127"
-KEY_PATH="infrastructure/keys/pair-test-key.pem"
+KEY_PATH="infrastructure/keys/ballo-gadget-bff-key.pem"
 JAR_PATH="services/java-bff/target/bff-0.0.1-SNAPSHOT.jar"
 
 echo "🚀 Building JAR..."
