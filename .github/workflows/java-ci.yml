@@ -20,6 +20,7 @@ jobs:
         cache: maven
         
     - name: Build with Maven
-      run: ./mvnw -Pprod clean verify -f services/java-bff/pom.xml
+      run: ./mvnw clean verify
+      working-directory: services/java-bff
       # -Pprod is used if there are specific profiles, otherwise just verify is fine.
       # verify runs tests and any checkstyle/linting plugins you might add.
