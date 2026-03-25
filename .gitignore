@@ -47,6 +47,4 @@ terraform.rc
 
 # Maven
 target/
-.mvn/
-mvnw.cmd
 infrastructure/keys/
