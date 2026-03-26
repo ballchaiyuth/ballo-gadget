@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration
-EC2_IP="43.210.67.127"
+EC2_IP=$(tofu -chdir=infrastructure output -raw bff_public_ip)
 KEY_PATH="infrastructure/keys/ballo-gadget-bff-key.pem"
 JAR_PATH="services/java-bff/target/bff-0.0.1-SNAPSHOT.jar"
 
@@ -9,10 +9,10 @@ echo "🚀 Building JAR..."
 cd services/java-bff && ./mvnw clean package -DskipTests && cd ../..
 
 echo "📤 Uploading JAR to EC2 ($EC2_IP)..."
-scp -i $KEY_PATH $JAR_PATH ec2-user@$EC2_IP:/home/ec2-user/bff.jar
+scp -i $KEY_PATH -o StrictHostKeyChecking=no $JAR_PATH ec2-user@$EC2_IP:/home/ec2-user/bff.jar
 
 echo "🏃 Starting BFF on EC2..."
-ssh -i $KEY_PATH ec2-user@$EC2_IP "
+ssh -i $KEY_PATH -o StrictHostKeyChecking=no ec2-user@$EC2_IP "
   if ! command -v java &> /dev/null || ! java -version 2>&1 | grep -q '25'; then
     echo 'Installing Java 25...'
     sudo dnf install -y java-latest-openjdk # Try latest openjdk if corretto name is different
